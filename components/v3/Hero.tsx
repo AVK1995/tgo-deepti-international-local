@@ -7,7 +7,8 @@ export function Hero() {
     <section className="v3-hero">
       <div className="v3-wrap">
         <p className="v3-eyebrow" data-sdp-reveal>
-          For Indians In The US Dealing With Fatty Liver, Excess Weight Or Worsening Health Markers
+          For Indians In The US Dealing With Fatty Liver, Excess Weight <br className="v3-br" />
+          Or Worsening Health Markers
         </p>
         <h1 className="v3-h1" data-sdp-reveal style={{ '--d': '.06s' } as React.CSSProperties}>
           Improve Fatty Liver <br className="v3-br" />
