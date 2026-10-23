@@ -22,25 +22,28 @@ export function Coach() {
           <div className="v3-coach-text" data-sdp-reveal>
             <p className="v3-coach-name">DEEPTI SHERAWAT</p>
             <p>
-              For over 10 years and 700+ client journeys worldwide, Deepti Sherawat has worked at the
-              intersection of Ayurveda, nutrition and metabolic health.
+              For over <strong>10 years and 700+ client journeys worldwide</strong>, Deepti Sherawat
+              has worked at the intersection of{' '}
+              <strong>Ayurveda, functional nutrition and metabolic health</strong>.
             </p>
             <p>
-              Her approach goes beyond generic diet plans by looking at how digestion, lifestyle, food
-              patterns, body type and health markers may be connected.
+              Her approach goes beyond generic diet plans by looking at how{' '}
+              <strong>digestion, food patterns, lifestyle, body type and health markers</strong> work
+              together, especially when familiar Indian eating habits meet the realities of a modern
+              lifestyle abroad.
             </p>
             <p>
-              By combining Ayurvedic principles with functional nutrition, she builds personalised
-              plans designed around the person rather than just the condition.
+              By combining <strong>Ayurvedic principles with functional nutrition</strong>, she builds
+              personalised plans designed around the person rather than just the condition.
             </p>
             <p>
-              Her work has earned her recognition as Top Nutritionist at Cult Fit, a place on the
-              Advisory Board at AAFT School of Health &amp; Wellness, and the opportunity to lead
-              Hormonal &amp; Liver Detox programmes at Habuild.
+              Her work has earned her recognition as <strong>Top Nutritionist at Cult Fit</strong>, a
+              place on the <strong>Advisory Board at AAFT School of Health &amp; Wellness</strong>, and
+              the opportunity to lead <strong>Hormonal &amp; Liver Detox programmes at Habuild</strong>.
             </p>
             <p>
               Today, Deepti and her qualified team support clients globally with a more connected
-              approach to fatty liver, weight and metabolic health.
+              approach to <strong>fatty liver, weight and metabolic health</strong>.
             </p>
           </div>
         </div>

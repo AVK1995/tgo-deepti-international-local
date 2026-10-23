@@ -38,6 +38,13 @@
 }
 .v3-lede { max-width: 860px; margin: 20px auto 0; font-size: clamp(18px, 1.9vw, 21px); color: var(--v3-muted); }
 .v3-sub { margin-top: 16px; font-size: clamp(18px, 1.8vw, 20px); color: var(--v3-muted); }
+/* The copy doc's italic second half of the headline and its bolded phrases. */
+.v3-root .v3-h1-em { font-style: italic; color: var(--v3-teal); }
+.v3-root strong { font-weight: 800; color: var(--v3-ink); }
+
+/* "Why Indian bodies" infographic: tall, so it is capped narrower than the page. */
+.v3-indian-img { display: block; max-width: 640px; margin: 30px auto 0; }
+.v3-root .v3-indian-img img { width: 100%; height: auto; border-radius: 14px; }
 
 /* ---------- top bar ---------- */
 .v3-topbar { background: var(--v3-teal); padding: 14px 22px; display: flex; justify-content: center; }
@@ -71,6 +78,10 @@
   transition: background .6s var(--v3-ease);
 }
 .v3-root .v3-cta:hover { background: var(--v3-ink); }
+/* Desktop: the label breaks after "Health" (see Cta.tsx), sized so line one fills the button. */
+@media (min-width: 641px) {
+  .v3-root .v3-cta { font-size: clamp(22px, 3vw, 34px); }
+}
 .v3-cta:focus-visible { outline: 3px solid var(--v3-turmeric); outline-offset: 3px; }
 
 /* ---------- sections ---------- */

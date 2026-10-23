@@ -543,5 +543,45 @@ export const PROOF_DIMS: Record<string, [number, number]> = {
  "testimonials/99.webp": [
   460,
   771
+ ],
+ "reports/report-01.webp": [
+  900,
+  900
+ ],
+ "reports/report-02.webp": [
+  900,
+  900
+ ],
+ "reports/report-03.webp": [
+  900,
+  900
+ ],
+ "reports/report-04.webp": [
+  900,
+  1186
+ ],
+ "reports/report-05.webp": [
+  900,
+  900
+ ],
+ "reports/report-06.webp": [
+  900,
+  900
+ ],
+ "reports/report-07.webp": [
+  900,
+  1186
+ ],
+ "reports/report-08.webp": [
+  900,
+  1027
+ ],
+ "reports/report-09.webp": [
+  900,
+  600
+ ],
+ "reports/report-10.webp": [
+  900,
+  900
  ]
 };

@@ -5,13 +5,14 @@ import { ScrollReveal } from '@/components/shared/ScrollReveal';
 import { SiteFooter } from '@/components/shared/SiteFooter';
 import { TopBar } from '@/components/v3/TopBar';
 import { Hero } from '@/components/v3/Hero';
+import { IndianBodies } from '@/components/v3/IndianBodies';
 import { ForYou } from '@/components/v3/ForYou';
 import { Proof } from '@/components/v3/Proof';
 import { Wins } from '@/components/v3/Wins';
 import { ApproachImage, Coach } from '@/components/v3/Coach';
 import { Faq } from '@/components/v3/Faq';
 
-/* Copy: October 2026 update. Look: thedoordieexperience.com in the Deepti brand teal. */
+/* Copy: October 2026 US-audience update (Deepti Project File). Look: thedoordieexperience.com in the Deepti brand teal. */
 export default function LandingPage() {
   return (
     <main className="v3-root">
@@ -19,6 +20,7 @@ export default function LandingPage() {
       <ScrollReveal />
       <TopBar />
       <Hero />
+      <IndianBodies />
       <ForYou />
       <Proof />
       <Wins />

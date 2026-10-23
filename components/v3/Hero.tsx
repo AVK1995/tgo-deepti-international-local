@@ -7,17 +7,20 @@ export function Hero() {
     <section className="v3-hero">
       <div className="v3-wrap">
         <p className="v3-eyebrow" data-sdp-reveal>
-          For Adults With Fatty Liver, Excess Weight Or Worsening Health Markers
+          For Indians In The US Dealing With Fatty Liver, Excess Weight Or Worsening Health Markers
         </p>
         <h1 className="v3-h1" data-sdp-reveal style={{ '--d': '.06s' } as React.CSSProperties}>
-          Improve Fatty Liver, <br className="v3-br" />
-          Lose Stubborn Weight &amp; <br className="v3-br" />
-          Get Your Health Back On Track
+          Improve Fatty Liver <br className="v3-br" />
+          &amp; Lose Stubborn Weight <br className="v3-br" />
+          <em className="v3-h1-em">
+            &amp; Get A Plan That Fits <br className="v3-br" />
+            Your Indian Roots &amp; US Life
+          </em>
         </h1>
         <p className="v3-lede" data-sdp-reveal style={{ '--d': '.12s' } as React.CSSProperties}>
-          A personalised 12-week programme combining Ayurveda + functional nutrition to work on your
-          liver, weight and metabolic health together, with a plan built around your food,
-          lifestyle, health markers and individual needs.
+          A personalised 12-week programme combining <strong>Ayurveda + functional nutrition</strong>{' '}
+          to account for the way <strong>South Asian bodies</strong>,{' '}
+          <strong>Indian eating patterns and life in the US</strong> can shape your metabolic health.
         </p>
 
         <p className="v3-step">
