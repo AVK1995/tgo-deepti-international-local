@@ -1,12 +1,11 @@
-import { asset } from '@/components/shared/asset-version';
 import { Star } from '@/components/v2/Brand';
 import { BEFORE_AFTER, CASE_STUDIES, TESTIMONIALS } from '@/lib/proof-data';
 import { Cta } from './Cta';
 import { Rail } from './Rail';
 import { SliderImg } from './SliderImg';
 
-/* Lab report images go in /public/reports and are listed here; the row stays hidden while empty. */
-const REPORTS: string[] = [];
+/* Lab report images in /public/reports; the row stays hidden while empty. */
+const REPORTS: string[] = Array.from({ length: 10 }, (_, i) => `report-${String(i + 1).padStart(2, '0')}.webp`);
 
 const DURATION = / DURATION$/;
 
@@ -100,15 +99,7 @@ export function Proof() {
         <Rail dir="ltr" className="is-shots">
           {(copy) =>
             REPORTS.map((src) => (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                key={`${copy}-${src}`}
-                className="v3-shot"
-                src={asset(`/reports/${encodeURIComponent(src)}`)}
-                alt=""
-                loading="lazy"
-                decoding="async"
-              />
+              <SliderImg key={`${copy}-${src}`} dir="reports" file={src} className="v3-shot" />
             ))
           }
         </Rail>

@@ -1,11 +1,12 @@
+import { Em } from './Em';
+
 const ITEMS = [
-  'Your scan or recent reports have shown fatty liver, and you want to start working on it before it progresses further.',
-  'You’re also dealing with stubborn weight that isn’t responding the way it used to.',
-  'Your cholesterol, triglycerides, liver enzymes or other metabolic markers have started moving in the wrong direction.',
-  'Weight, digestion, energy and health markers all seem to be getting affected together.',
-  'You’ve tried dieting, exercising, detoxes or supplements, but still don’t have a clear plan built around your body.',
-  'You want a personalised approach that takes your digestion, lifestyle, food habits and health markers into account.',
-  'You want to improve fatty liver, weight and metabolic health together, not chase each problem separately.',
+  'Your scan or recent reports have shown **fatty liver**, and you want to start working on it before it progresses further.',
+  'You’re also dealing with **stubborn weight** that isn’t responding the way it used to.',
+  'Your **cholesterol, triglycerides, liver enzymes or other metabolic markers** have started moving in the wrong direction.',
+  'You’ve tried **dieting, exercising, detoxes or supplements**, but still don’t have a clear plan built around your body and lifestyle.',
+  'You want an approach that accounts for your **digestion, Indian eating patterns, life in the US and health markers**.',
+  'You want to work on the **bigger metabolic picture**, not chase every concern separately.',
 ];
 
 export function ForYou() {
@@ -21,7 +22,9 @@ export function ForYou() {
               <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden>
                 <path d="M4 12.5l5 5L20 6.5" fill="none" stroke="var(--v3-teal)" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <span>{t}</span>
+              <span>
+                <Em text={t} />
+              </span>
             </li>
           ))}
         </ul>
