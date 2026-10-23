@@ -35,7 +35,8 @@ export function Proof() {
           PROGRESS YOU CAN SEE. CHANGES YOU CAN MEASURE.
         </p>
         <h2 className="v3-h2" data-sdp-reveal>
-          Better Liver Health. Healthier Weight. <br className="v3-br" />
+          Better Liver Health. <br className="v3-br" />
+          Healthier Weight. <br className="v3-br" />
           Stronger Metabolic Markers.
         </h2>
         <p className="v3-sub" data-sdp-reveal>
